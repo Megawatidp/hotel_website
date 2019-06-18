@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Welcome to the most extraordinary hotel in Jakarta">
+  <meta name="keyword" content="hotel, hotel boston, new england hotel">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title>Hotel BT | Concact</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">HBT</a></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="contact-form" class="py-3">
+    <div class="container">
+      <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+      <p>Please fill out the form below to contact us</p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea type="message" name="message" id="message"></textarea>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact-info" class="bg-dark">
+    <div class="container">
+      <div class="box">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h1>Location</h1>
+        <p>Jalan kemanggisan No.28 Jakarta Barat</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-phone fa-3x"></i>
+        <h1>Phone</h1>
+        <p>(021) 623456</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-envelope fa-3x"></i>
+        <h1>Email</h1>
+        <p>helpdesk@hotelbt.com</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>
